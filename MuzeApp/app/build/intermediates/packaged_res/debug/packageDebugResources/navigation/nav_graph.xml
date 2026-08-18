@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/citiesFragment">
+
+    <fragment
+        android:id="@+id/citiesFragment"
+        android:name="com.teyyub.muzeapp.ui.cities.CitiesFragment"
+        android:label="Şəhərlər"
+        tools:layout="@layout/fragment_cities">
+
+        <action
+            android:id="@+id/action_citiesFragment_to_museumsFragment"
+            app:destination="@id/museumsFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/museumsFragment"
+        android:name="com.teyyub.muzeapp.ui.museums.MuseumsFragment"
+        android:label="Muzeylər"
+        tools:layout="@layout/fragment_museums">
+
+        <!-- CitiesFragment-de secilen sheherin slug-u burdan MuseumsFragment-e otwurulecek -->
+        <argument
+            android:name="citySlug"
+            app:argType="string" />
+        <argument
+            android:name="cityName"
+            app:argType="string" />
+    </fragment>
+
+    <!-- xmlns:tools burda lazimdi ama nav editor avtomatik elave edir, -->
+    <!-- Android Studio-da acanda xeberdarliq gorsen tools namespace-i root tag-a elave et -->
+
+</navigation>

@@ -1,0 +1,28 @@
+R_DEF: Internal format may change without notice
+local
+color black
+color purple_500
+color purple_700
+color white
+drawable ic_launcher
+id action_citiesFragment_to_museumsFragment
+id citiesFragment
+id museumsFragment
+id nav_graph
+id nav_host_fragment
+id progressBar
+id rvCities
+id rvMuseums
+id tvCityName
+id tvEmpty
+id tvMuseumAddress
+id tvMuseumName
+layout activity_main
+layout fragment_cities
+layout fragment_museums
+layout item_city
+layout item_museum
+navigation nav_graph
+string app_name
+string no_museum_found
+style Theme.MuzeApp

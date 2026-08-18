@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">MuzeApp</string>
+    <string name="no_museum_found">Bu şəhər üçün muzey tapılmadı</string>
+</resources>

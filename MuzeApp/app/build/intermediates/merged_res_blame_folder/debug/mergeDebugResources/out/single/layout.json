@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "com.teyyub.muzeapp-mergeDebugResources-48:/layout/fragment_cities.xml",
+        "source": "com.teyyub.muzeapp-main-51:/layout/fragment_cities.xml"
+    },
+    {
+        "merged": "com.teyyub.muzeapp-mergeDebugResources-48:/layout/item_museum.xml",
+        "source": "com.teyyub.muzeapp-main-51:/layout/item_museum.xml"
+    },
+    {
+        "merged": "com.teyyub.muzeapp-mergeDebugResources-48:/layout/activity_main.xml",
+        "source": "com.teyyub.muzeapp-main-51:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.teyyub.muzeapp-mergeDebugResources-48:/layout/item_city.xml",
+        "source": "com.teyyub.muzeapp-main-51:/layout/item_city.xml"
+    },
+    {
+        "merged": "com.teyyub.muzeapp-mergeDebugResources-48:/layout/fragment_museums.xml",
+        "source": "com.teyyub.muzeapp-main-51:/layout/fragment_museums.xml"
+    }
+]
